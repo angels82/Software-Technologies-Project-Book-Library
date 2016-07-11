@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BOOK STORE</title>
+    <script src="libs/jquery-3.0.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular.min.js"></script>
+    <script src="https://da189i1jfloii.cloudfront.net/js/kinvey-angular-1.1.4.min.js"></script>
+    <script src="libs/scripts.js"></script>
+    <link rel="stylesheet" type = "text/css" href="styles/css.css"/>
+
+</head>
+<body background="love_letters_563183.jpg" id="body1">
+    <header id = "menu" >
+        <a href="#" id = "linkHome">Home</a>
+        <a href="#" id = "linkRegister">Register</a>
+        <a href="#" id = "linkLogin">Login</a>
+        <a href="#" id = "linkListBooks">View all books</a>
+        <a href="#" id = "linkCreateBook">Create a new book</a>
+        <a href="#" id = "linkLogout">Logout</a>
+    </header>
+<main>
+    <section id = "loadingBox">Loading...</section>
+    <section id = "infoBox" onclick='$(this).fadeOut()'></section>
+    <section id = "errorBox" onclick='$(this).fadeOut()'>Error</section>
+    <section id = "viewHome">
+
+        <div><img src="Untitled-1.gif" id="welcome"> </div>
+    </section>
+    <section id = "viewLogin">
+        <h1>Please login using your USERNAME and PASSWORD: </h1>
+            <form id = "formLogin">
+            <div>Username:</div>
+            <div><input type="text" id="loginUser" required></div>
+                <br>
+                <div>Password:</div>
+                <div><input type="password" id="loginPass" required></div>
+                <br>
+                <div><input type="submit" value="Click to login" id = "buttonLoginView"></div>
+        </form>
+    </section>
+    <section id = "viewRegister">
+        <h1>Please enter your details to register:</h1>
+        <form id = "formRegister">
+            <div>Username:</div>
+            <div><input type="text" id="registerUser" required> (Obligatory field)</div>
+            <br>
+            <div>Password:</div>
+            <div><input type="password" id="registerPass" required> (Obligatory field)</div>
+            <br>
+            <div>Your Name:</div>
+            <div><input type="text" id="userName"> (Optional field)</div>
+            <br>
+            <div><input type="submit" value="Click to register" id = "buttonRegisterView"></div>
+        </form>
+    </section>
+    <section id = "viewBooks">
+        <h1>Books List:</h1>
+        <div id = "books"></div>
+
+    </section>
+    <div id = "viewBooksHome1">
+
+        <div id = "booksHome1"></div>
+
+    </div>
+    <section id = "viewCreateBook">
+        <h1>Create a new book:</h1>
+        <form id="formCreateBook">
+            <div>Title: </div>
+            <div><input type="text" id="bookTitle" required> (Obligatory field)</div>
+            <div>Author: </div>
+            <div><input type="text" id="bookAuthor" required> (Obligatory field)</div>
+            <div>Description: </div>
+            <div><textarea id="bookDescription" rows="15"></textarea> (Optional field)</div>
+
+
+
+            <div><input type="submit" value="Click to create a new book" id = "buttonCreateBook"></div>
+            </form>
+
+        </form>
+    </section>
+
+    </main>
+    <div id="foot" >Copyright Angel Stoev</div>
+</body>
+
+</html>
