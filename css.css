@@ -1,0 +1,183 @@
+#menu {
+    background: rgb(194, 11, 17);
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.5em;
+    color: #ffcae5;
+}
+
+#menu a {
+
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #ffcae5;
+}
+
+#menu a:hover {
+    background: rgba(194, 70, 135, 0.98);
+    font-style: oblique;
+    color: rgba(0, 0, 0, 0.98);
+}
+
+main > section {
+    padding: 20px 5px;
+    display: none;
+}
+
+section h1 {
+    margin: 10px 0px;
+    font-size: 1.3em;
+}
+table {
+    width: 100%;
+    empty-cells: hide;
+    border-radius: 10px;
+    border: medium solid black;
+    padding: 2px;
+
+}
+
+#body1{
+    background-size:cover;
+}
+table th {
+    background: #c1d9ff;
+    padding: 10px;
+}
+
+
+#infoBox, #loadingBox, #errorBox {
+    width: 70%;
+    margin: 10px auto;
+    color: whitesmoke;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    display: none;
+
+}
+
+#loadingBox {
+    background: rgb(194, 11, 17);
+}
+
+#errorBox {
+    background: #ff0e1d;
+}
+
+#infoBox {
+    background:rgb(194, 11, 17);
+}
+
+#foot {
+
+    margin: 5px;
+    background: rgb(194, 11, 17);
+    text-align: center;
+    padding: 2px;
+    border-radius: 10px;
+
+    position: fixed;
+    bottom: 0px;
+
+    height: 18px;
+    width: 98%;
+    clear: both;
+}
+
+
+
+#body1 {
+
+
+    margin-bottom: 100px;
+    clear: both;
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+
+#welcome{
+    align-content: center;
+
+
+
+}
+
+#viewHome div {
+    align-content: center;
+}
+
+img {
+    position: relative;
+    display: inline-block;
+    position: absolute;
+    top: 0; bottom:0; left: 0; right:0;
+    margin: auto;
+}
+
+div {
+
+    color: rgba(0, 0, 0, 0.98);
+    font-style: oblique;
+}
+
+
+
+table {
+position: relative;
+    background: rgba(3, 2, 3, 0.45);
+    float: left;
+    margin-bottom: 50px;
+    padding: 5px;
+    table-layout:fixed; width:70%; border-radius: 10px; border: solid black; empty-cells: hide}
+table td {border:solid 1px; word-wrap:break-word; empty-cells: hide; background: rgba(3, 2, 3, 0.45); color: white}
+
+
+#viewBooksHome1, #booksHome1 {
+    display: block;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+#recentlyAddedBooks {
+    font-size: 1.5em;
+    font-style: italic;
+    font-style: oblique;
+}
+
+#trtr td {
+    font-size: 1.2em;
+    padding: 10px;
+    background-color: rgb(194, 11, 17);
+    margin: 10px;
+    width: 280px;
+    color: #ffcae5;
+}
+aside {
+
+    background: beige;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    float: right;
+    margin-top: 110px;
+    background: beige;
+    width: 300px;
+    display: block;
+
+    color: brown;
+
+
+}
+
+#viewBooksHome, #booksHome {
+    display: none;
+}
+
+#viewBooks {
+    padding-bottom: 20px;
+}
